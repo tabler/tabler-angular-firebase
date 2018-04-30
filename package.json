@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -21,8 +21,24 @@
     "@angular/platform-browser": "^6.0.0-rc.5",
     "@angular/platform-browser-dynamic": "^6.0.0-rc.5",
     "@angular/router": "^6.0.0-rc.5",
+    "@firebase/app": "^0.1.6",
+    "@firebase/auth": "^0.4.2",
+    "@firebase/firestore": "^0.4.1",
+    "@ngx-formly/bootstrap": "^3.0.0",
+    "@ngx-formly/core": "^3.0.0",
+    "@tabler/angular-core": "^0.7.3",
+    "@tabler/angular-forms": "^0.7.3",
+    "@tabler/angular-styles": "^0.7.3",
+    "@tabler/angular-ui": "^0.7.3",
+    "angularfire2": "^5.0.0-rc.6",
+    "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
+    "firebase": "^4.12.1",
+    "font-awesome": "^4.7.0",
+    "ngx-bootstrap": "^2.0.4",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.0.0",
+    "simple-line-icons": "^2.4.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

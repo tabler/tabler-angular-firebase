@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+$tabler-base: "~@tabler/angular-styles" !default;
+@import "~@tabler/angular-styles/scss/tabler.scss";
+.fe {
+  display: inline-block;
+}
